@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="description" content="HW1">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Joanne Wang">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>profile.html</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <a href="main.html" id="profile-link">Go back to Main</a>
+  <div>
+    <p><i class="fa fa-user"></i>Display name: <input type="text" name="displayName" id="displayName"><span id="nameField"> test</span></p>
+    <span id="errorName" style="display: none"></span>
+    
+    <p><i class="fa fa-envelope"></i>Email address: <input type="email" name="email" id="email"><span id="emailField"> yy@rice.edu</span></p>
+    <span id="errorEmail" style="display: none"></span>
+
+    <p><i class="fa fa-phone"></i>Phone number: <input type="text" name="phone" id="phone"><span id="phoneField"> 555-555-5555</span></p>
+    <span id="errorPhone" style="display: none"></span>
+
+    <p><i class="fa fa-home"></i>Zip code: <input type="text" name="zip" id="zip"><span id="zipField"> 77030</span></p>
+    <span id="errorZip" style="display: none"></span>
+
+    <p><i class="fa fa-lock"></i>Password: <input type="password" name="pass" id="pass"><span id="passField"> "*"</span></p>
+    <span id="errorPass" style="display: none"></span>
+    
+    <p><i class="fa fa-lock"></i>Password confirmation: <input type="password" name="rePass" id="rePass"><span id="rePassField"> "*"</span></p>
+    <span id="errorRePass" style="display: none"></span>
+</div>
+
+  <div>
+    <input type="submit" name="submit" id="submit" onclick="validate()" value="Submit"/>
+  </div>
+
+
+  <script src="profile.js"></script>
+</body>
+</html>

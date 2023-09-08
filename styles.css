@@ -1,0 +1,92 @@
+body {
+  font-family: andale mono; 
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+div {
+  margin: 10px;
+  padding: 0;
+}
+
+p {
+  display: block;
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#profile-link {
+  text-align: center;
+  padding: 10px;
+  background-color: #A79C8F;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.i {
+  font-size:20px;
+}
+
+#postGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+  
+.post {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.post img {
+  height: 80%;
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.post-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post button {
+  font-family: andale mono; 
+  background-color:#0a0a23;
+  color: #fff;
+  border:none;
+  border-radius:10px;
+  display: block;
+  width: 10%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+input[type=text], input[type=email], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  font-family: andale mono; 
+  background-color: #8FA795;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  width: 10%;
+  margin: auto;
+}
+
